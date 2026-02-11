@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #list1 {
+            list-style-type: none;
+            margin-top: 0px;
+            display: flex;
+            justify-content: space-between;
+            background-color: burlywood;
+            padding: 10px 10px;
+            color: blue;
+
+        }
+
+
+        #list2 {
+            font-size: 20px;
+            list-style-type: none;
+            margin: 0px;
+            padding: 20px;
+            background-color: cyan;
+            display: flex;
+            justify-content: space-around;
+            position: sticky;
+            top: 0px;
+        }
+
+        li a {
+            color: black;
+            text-decoration: none;
+        }
+        #box5{
+            margin-top: 100px;
+            border: 2px solid red;
+            height: 350px;
+            max-width: 500px;
+        }
+        .button1{
+            font-size: 15px;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="list1">
+        <li><i class="fa-solid fa-phone"></i> +919876543210 </li>
+        <li><i class="fa-solid fa-message"></i>smvec.ac@gmail.com</li>
+    </ul>
+    <hr>
+    <ul id="list2">
+        <li><i class="fa-solid fa-house"></i><a href="mainpage.html"> Home</a></li>
+        <li><i class="fa-solid fa-building"></i><a href="aboutus.html">About Us</a></li>
+        <li><i class="fa-solid fa-book-open"></i><a href="ourservice.html">Our Services</a></li>
+        <li><i class="fa-solid fa-user-plus"></i><a href="createaccnt.html">Create Account</a></li>
+        <li><i class="fa-solid fa-lock"></i><a href="login.html">Login</a></li>
+    </ul>
+    <center>
+    <form id="box5">
+        <h3 style="color: red;"><i class="fa-solid fa-user-plus"></i>Create Account</h3>
+        <table>
+            <tr>
+                <td style="color: red; font-size: 10px;">*marked fields are mandatory</td>
+            </tr>
+            <tr>
+                <td>Full Name* : </td>
+                <td> <input type="text" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number* :</td>
+                <td><input type="number" placeholder="Enter Your Mobile No."></td>
+            </tr>
+            <tr>
+                <td>E-mail :</td>
+                <td><input type="email" placeholder="Enter Your email"></td>
+            </tr>
+            <tr>
+                <td>Password* :</td>
+                <td><input type="password" placeholder="Enter Your Password"></td>
+            </tr>
+            <tr>
+                <td>City :</td>
+                <td> <select>
+                    <option>Pondicherry</option>
+                        <option>Chennai</option>
+                        <option>Bangalore</option>
+                        <option>Pune</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td> <input type="text" placeholder="Enter Your Address"></td>
+            </tr>
+            <tr>
+                <td>Pincode :</td>
+                <td><input type="number" placeholder="Enter Your Pincode"></td>
+            </tr>
+            <tr>
+                <td>Profile Photo :</td>
+                <td> <input type="file"></td>
+            </tr>
+            <tr>
+                <td></td><td><button class="button1"> Submit</button>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+
+</html>
